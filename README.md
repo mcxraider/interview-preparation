@@ -1,5 +1,5 @@
 # data-science-interviews
-Questions/ answers/ materials used to study and prepare for data science interviews <br>
+Questions/ answers/ materials I use to study and prepare for data science interviews <br>
 Major credits to: [this repo](https://github.com/alexeygrigorev/data-science-interviews)
 
 # Reading Materials:
