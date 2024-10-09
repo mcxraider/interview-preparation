@@ -1,6 +1,15 @@
-# data-science-interviews
-Questions/ answers/ materials I use to study and prepare for data science interviews <br>
-Major credits to: [this repo](https://github.com/alexeygrigorev/data-science-interviews)
+# Data Science Interviews
+Questions-answers/ materials I use to study for data science interviews <br>
+some credits to: [this repo](https://github.com/alexeygrigorev/data-science-interviews)
+
+# Coding Interviews:
+- [Stratascratch](https://platform.stratascratch.com/coding?code_type=3&order_field=difficulty&is_freemium=1)
+- [Leetcode - Database](https://leetcode.com/problemset/database/)
+- [HackerRank](https://www.hackerrank.com/domains/sql?filters%5Bstatus%5D%5B%5D=unsolved)
+- [Grind75](https://www.techinterviewhandbook.org/grind75/)
+- [Leetcode - Top 150 Questions](https://leetcode.com/studyplan/top-interview-150/)
+- [deep-ml](https://www.deep-ml.com/?difficulty=easy&category=&solved=&page=1)
+
 
 # Reading Materials:
 
