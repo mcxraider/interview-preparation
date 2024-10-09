@@ -36,7 +36,7 @@ Major credits to: [this repo](https://github.com/alexeygrigorev/data-science-int
 10. **XGBoost**
     - https://www.analyticsvidhya.com/blog/2018/09/an-end-to-end-guide-to-understand-the-math-behind-xgboost/
     - https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-for-ensemble-models/
-    - A popular gradient boosting framework optimized for performance.
+    - A popular gradient-boosting framework optimized for performance.
 
 
 ### **Unsupervised Learning Algorithms:**
@@ -61,30 +61,56 @@ Major credits to: [this repo](https://github.com/alexeygrigorev/data-science-int
 
 
 ### **Reinforcement Learning Algorithms:**
+- Intro: https://ketanhdoshi.github.io/Reinforcement-Learning-Intro/
+- Solution Approaches: https://ketanhdoshi.github.io/Reinforcement-Learning-Solutions/
+- Model Free Solution: https://ketanhdoshi.github.io/Reinforcement-Learning-Model/
 1. **Q-Learning**
+   - https://ketanhdoshi.github.io/Reinforcement-Learning-Q-Learning/
    - A model-free reinforcement learning algorithm based on learning a Q-value function.
-2. **Deep Q-Networks (DQN)**
+4. **Deep Q-Networks (DQN)**
+   - https://ketanhdoshi.github.io/Reinforcement-Learning-Deep-Q-Network/
    - A combination of Q-learning and deep neural networks.
-3. **Policy Gradient Methods**
+5. **Policy Gradient Methods**
+   - https://ketanhdoshi.github.io/Reinforcement-Learning-Policy-Gradients/
    - Learn policies directly instead of learning a value function.
-4. **Proximal Policy Optimization (PPO)**
+6. **Proximal Policy Optimization (PPO)**
+   - https://towardsdatascience.com/proximal-policy-optimization-ppo-explained-abed1952457b
    - A modern, stable policy optimization method used in reinforcement learning.
-5. **SARSA (State-Action-Reward-State-Action)**
+7. **SARSA (State-Action-Reward-State-Action)**
    - A reinforcement learning algorithm that updates policies based on current actions.
 
 ### **Neural Networks and Deep Learning Algorithms:**
 1. **Artificial Neural Networks (ANN)**
    - The basic neural network model used for various tasks.
 2. **Convolutional Neural Networks (CNN)**
+   - https://medium.com/thedeephub/convolutional-neural-networks-a-comprehensive-guide-5cc0b5eae175
+   - https://medium.com/@beingfarina/breaking-down-the-mathematics-behind-cnn-models-a-comprehensive-guide-1853aa6b011e
    - Primarily used for image recognition tasks.
 3. **Recurrent Neural Networks (RNN)**
+   - https://www.analyticsvidhya.com/blog/2017/12/introduction-to-recurrent-neural-networks/
+   - https://www.analyticsvidhya.com/blog/2022/03/a-brief-overview-of-recurrent-neural-networks-rnn/
+   - https://karpathy.github.io/2015/05/21/rnn-effectiveness/
    - Used for sequential data tasks like time series or natural language processing.
 4. **Long Short-Term Memory Networks (LSTM)**
+   - https://medium.com/@ottaviocalzone/an-intuitive-explanation-of-lstm-a035eb6ab42c
+   - https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+   - https://weberna.github.io/blog/2017/11/15/LSTM-Vanishing-Gradients.html
+   - https://data-science-blog.com/blog/2020/09/07/back-propagation-of-lstm/
    - A type of RNN capable of learning long-term dependencies.
 5. **Transformer Networks**
    - A deep learning architecture primarily used in NLP tasks (e.g., BERT, GPT).
 6. **Generative Adversarial Networks (GANs)**
+   - https://www.analyticsvidhya.com/blog/2021/10/an-end-to-end-introduction-to-generative-adversarial-networksgans/
    - A framework involving two neural networks to generate new data.
+
+
+### **Recommendation Systems:**
+1. https://towardsdatascience.com/recommender-systems-a-complete-guide-to-machine-learning-models-96d3f94ea748
+2. **Collaborative Filtering:**
+   - https://medium.com/@deepapandithu/recommender-system-user-collaborative-filtering-37613f0c6a9
+3. **Content-Based Filtering:**
+   - https://medium.com/@zbeyza/recommendation-systems-content-based-filtering-e19e3b0a309e
+
 
 ### **Ensemble Learning Algorithms:**
 1. **Bagging**
@@ -92,5 +118,12 @@ Major credits to: [this repo](https://github.com/alexeygrigorev/data-science-int
 2. **Boosting**
    - Sequentially builds models that correct the errors of previous models (e.g., XGBoost, AdaBoost).
 3. **Stacking**
+
+
+
+
+
+
+
    - Combines multiple models by training a meta-model on their predictions.
 
