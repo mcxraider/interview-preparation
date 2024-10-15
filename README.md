@@ -3,7 +3,7 @@ Questions-answers/ materials I use to study for data science interviews <br>
 some credits to: [this repo](https://github.com/alexeygrigorev/data-science-interviews)
 
 # Coding Interviews:
-- [Stratascratch](https://platform.stratascratch.com/coding?code_type=3&order_field=difficulty&is_freemium=1)
+- Used [Stratascratch](https://platform.stratascratch.com/coding?code_type=3&order_field=difficulty&is_freemium=1) a lot for data analytics interview preparation
 - [Leetcode - Database](https://leetcode.com/problemset/database/)
 - [HackerRank](https://www.hackerrank.com/domains/sql?filters%5Bstatus%5D%5B%5D=unsolved)
 - [Grind75](https://www.techinterviewhandbook.org/grind75/)
