@@ -1,6 +1,6 @@
-# Data Science Interviews
+# Data Science/ Data Analyst Interviews
 Questions-answers/ materials I use to study for data science interviews <br>
-some credits to: [this repo](https://github.com/alexeygrigorev/data-science-interviews)
+Some credits to: [this repo](https://github.com/alexeygrigorev/data-science-interviews)
 
 # Coding Interviews:
 - Used [Stratascratch](https://platform.stratascratch.com/coding?code_type=3&order_field=difficulty&is_freemium=1) a lot for data analytics interview preparation
@@ -10,6 +10,13 @@ some credits to: [this repo](https://github.com/alexeygrigorev/data-science-inte
 - [Leetcode - Top 150 Questions](https://leetcode.com/studyplan/top-interview-150/)
 - [deep-ml](https://www.deep-ml.com/?difficulty=easy&category=&solved=&page=1)
 
+
+# Video Materials:
+
+1. [Statquest](https://www.youtube.com/@statquest) - Machine Learning/ Statistics/ Deep Learning
+2. [3b1b](https://www.youtube.com/@3blue1brown) - Math for Machine Learning
+3. [Andrej kaparthy](https://www.youtube.com/@AndrejKarpathy) - LLM Legend
+4. [Indently](https://www.youtube.com/@Indently) - Good coding practices
 
 # Reading Materials:
 
