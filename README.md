@@ -2,6 +2,9 @@
 Questions-answers/ materials I use to study for data science interviews <br>
 Some credits to: [this repo](https://github.com/alexeygrigorev/data-science-interviews)
 
+> **Note**: Do contribute with PRs! Repo is very messy atm, sorry.
+
+
 # Coding Interviews:
 - Used [Stratascratch](https://platform.stratascratch.com/coding?code_type=3&order_field=difficulty&is_freemium=1) a lot for data analytics interview preparation
 - [Leetcode - Database](https://leetcode.com/problemset/database/)
