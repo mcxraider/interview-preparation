@@ -1,15 +1,7 @@
 # 50 Must-Know PyTorch Interview Questions in 2025
 
-<div>
-<p align="center">
-<a href="https://devinterview.io/questions/machine-learning-and-data-science/">
-<img src="https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/github-blog-img%2Fmachine-learning-and-data-science-github-img.jpg?alt=media&token=c511359d-cb91-4157-9465-a8e75a0242fe" alt="machine-learning-and-data-science" width="100%">
-</a>
-</p>
 
 #### You can also find all 50 answers here 👉 [Devinterview.io - PyTorch](https://devinterview.io/questions/machine-learning-and-data-science/pytorch-interview-questions)
-
-<br>
 
 ## 1. What is _PyTorch_ and how does it differ from other deep learning frameworks like _TensorFlow_?
 
@@ -110,7 +102,7 @@ print(y.grad)
 
 ### Historical Context
 
-PyTorch 0.4 and earlier versions had both `Tensor`s and `Variable`s. 
+PyTorch 0.4 and earlier versions had both `Tensor`s and `Variable`s.
 
 - **Operations using Tensors**: The operations performed on `Variable`s were different from those on `Tensor`s. `Variable` relied on **Automatic Differentiation** to determine gradients and update weights, while `Tensor`s did not.
 
@@ -118,7 +110,7 @@ PyTorch 0.4 and earlier versions had both `Tensor`s and `Variable`s.
 
 ### Consolidation into `torch.Tensor`
 
-PyTorch, starting from version 0.4, combined the functionalities of `Variable` and `Tensor`. This amalgamation streamlines the tensor management process. 
+PyTorch, starting from version 0.4, combined the functionalities of `Variable` and `Tensor`. This amalgamation streamlines the tensor management process.
 
 With **Autograd** automatically computing gradients, all PyTorch tensors are now gradient-enabled; they possess both data (value) and gradient attributes.
 
@@ -311,7 +303,7 @@ Therefore, it's critical to **transfer data** (tensors and models) to the GPU on
 
 ### Key Components
 
-1. **Tensor**: PyTorch's data structure that denotes inputs, model parameters, and outputs.  
+1. **Tensor**: PyTorch's data structure that denotes inputs, model parameters, and outputs.
 2. **Function**: Operates on tensors and records necessary information for computing derivatives.
 3. **Computation Graph**: Formed by linking tensors and functions, it encapsulates the data flow in computations.
 4. **Grad_fn**: A function attributed to a tensor that identifies its origin in the computation graph.
@@ -319,11 +311,11 @@ Therefore, it's critical to **transfer data** (tensors and models) to the GPU on
 ### The Autograd Workflow
 
 1. **Tensor Construction**: When a tensor is generated from data or through operations, it acquires a `requires_grad` attribute by default unless specified otherwise.
-  
+
 2. **Computation Tracking**: Upon executing mathematical operations, the graph's relevant nodes and edges, represented by tensors and functions, are established.
-  
+
 3. **Local Gradients**: Functions within the graph determine partial derivatives, providing the local gradients needed for the chain rule.
-  
+
 4. **Backpropagation**: Through a backwards graph traversal, the complete derivatives with respect to the tensors involved are calculated and accumulated.
 
 ### Code Example: Autograd in Action
@@ -536,11 +528,11 @@ class CustomLayer(nn.Module):
         self.bias = None  # Optionally, describe custom parameters
         self.custom_param = custom_param
         self.reset_parameters()  # Example: Initialize weights and optional parameters
-        
+
     def reset_parameters(self):
         # Init codes for weights and optional parameters
         nn.init.kaiming_uniform_(self.weight, a=math.sqrt(5))
-    
+
     def forward(self, x):
         # Custom computation on input 'x'
         x = F.linear(x, self.weight, self.bias)
@@ -684,16 +676,16 @@ optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
 for inputs, targets in data_loader:
     # Zero the Gradient Buffers
     optimizer.zero_grad()
-    
+
     # Forward Pass
     outputs = model(inputs)
-    
+
     # Compute the Loss
     loss = criterion(outputs, targets)
-    
+
     # Backpropagation
     loss.backward()
-    
+
     # Update the Weights
     optimizer.step()
     # Include Additional Steps as Necessary (e.g., Learning Rate Schedulers)
